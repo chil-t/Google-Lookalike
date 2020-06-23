@@ -1,28 +1,33 @@
 #container {
-
+  position: relative;
 }
-html {
+html, body {
   max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
   overflow-x: hidden;
 }
 
 #links {
-
+  margin-top: 20px;
 }
 
 .about {
   display: inline-block;
   padding-left: 15px;
-  margin-right: 25px; 
+  margin-right: 20px; 
 }
    
-.gmail {
+.gmail, .images {
   float: right;
+  margin-right: 25px;
 }
 
 .images {
   float: right;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .pix {
@@ -66,3 +71,30 @@ button {
 .google-button {
   margin-right: 10px;
 }
+
+.footer {
+  position: fixed;
+  background-color: rgba(128,128,128, 0.2);
+  padding: 17px;
+  font-size: 17px;
+  width: 100%;
+  top: 780px;
+  padding-left: 17px;
+  white-space: nowrap;
+}
+
+
+.advertising, .business, .how-search-works, .privacy, .terms, .settings {
+  opacity: 0.55;
+  padding-left: 27px;
+}
+
+.advertising, .business, .how-search-works {
+  padding-left: 27px;
+}
+
+.how-search-works {
+ margin-right: 780px;
+}
+
+
